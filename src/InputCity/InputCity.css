@@ -1,0 +1,31 @@
+.SearchBar {
+    padding: 5px 5px;
+    border: none;
+    margin: auto;
+}
+
+.active-cyan-2 input.form-control[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #4dd0e1;
+    box-shadow: 0 1px 0 0 #4dd0e1;
+  }
+
+.Button {
+    padding: 0px 0px;
+    border: none;
+}
+
+.Button:hover {
+    transform: scale(1.10);
+}
+
+.ReportHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px;
+    color: #E7EEF8;
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    margin-right: 100px;
+    line-height: 1.5rem;
+}

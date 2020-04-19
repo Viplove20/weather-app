@@ -1,0 +1,61 @@
+.ReportSummary {
+    color: #E7EEF8;
+    font-family: Helvetica, sans-serif;
+
+}
+
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 5px;
+
+}
+
+
+.AdditionalInfo {
+    background-color: #F4F0F0;
+    color: #98AAB3;
+    font-size: 15px;
+    font-style: italic;
+    border: none;
+    position: relative;
+    text-align: left;
+}
+
+.AdditionalInfo div{
+    /* margin-bottom: 5px !important; */
+    padding-left: 5px;
+    
+}
+
+
+.temperature{
+    font-size: 60px;
+    text-align: left;
+}
+
+.cityName {
+    font-size: 30px;
+    text-align: left;
+}
+
+.weather{
+    font-weight: bold;
+    font-style: italic;
+    line-height: 2.5rem;
+}
+
+.infoDetails{
+    color: #7976B8;
+}
+
+.line{
+    margin: 2px;
+}
+
+.dateTime{
+    font-size: 15px;
+    text-align: left;
+}
